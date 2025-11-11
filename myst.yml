@@ -4,18 +4,25 @@ extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
   title: Prototype Project Repo
-  github: https://github.com/projectpythia/cookbook-template
+  github: https://github.com/dappiahkubi/Prototype-Project-Repo
   authors:
     - name: Derick Appiah Kubi
   copyright: '2025'
   toc:
     - file: README.md
-    - title: Preamble
+    - title: Prototype Cookbook
       children:
         - file: notebooks/how-to-cite.md
-    - title: Introduction
+    - title: Foundation
       children:
-        - file: notebooks/notebook-template.ipynb
+        - file: notebooks/Spatial_plots.ipynb
+        - file: notebooks/Timeseries.ipynb
+ 
+    - title: Example workflows
+      children:
+       - file: notebooks/Spatial_plots.ipynb
+       - file: notebooks/Timeseries.ipynb
   jupyter:
       binder:
+        url: https://binder.projectpythia.org/
         repo: projectpythia/cookbook-template

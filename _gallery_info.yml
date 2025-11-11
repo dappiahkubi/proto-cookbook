@@ -1,6 +1,7 @@
-thumbnail: thumbnail.png
+thumbnail:CMIP6.png
 tags:
   domains:
-    - sampledomain
+    - climate
   packages:
-    - samplepackage
+    - zarr
+    - fsspec

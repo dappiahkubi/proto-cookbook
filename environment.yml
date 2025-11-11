@@ -1,7 +1,15 @@
-name: cookbook-dev
+name: Prototype project-dev
 channels:
   - conda-forge
 dependencies:
+  - python<3.12
   - jupyterlab
   - mystmd
   - jupyterlab-myst
+  - matplotlib
+  - xarray
+  - pandas
+  - numpy
+  - zarr
+  - fsspec
+  - nc_time_axis
